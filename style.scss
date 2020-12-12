@@ -193,11 +193,7 @@ main
 
 .projects-container
 {
-//   .row
-//   {
-//       margin: 0 !important;
-//     padding: 5rem 0;
-//   }
+
     h4 
     {
         font-size: 20px;
@@ -208,9 +204,28 @@ main
     height: auto;
     // background-color: #F4F4F4;
     color: #f4f4f4;
+    .project-about
+    {
+        background-color: #8591FF;
+        padding: 2rem 0;
+        img 
+        {
+            border-radius: 12px;
+        }
+    }
+    .description 
+    {
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 1000px) 
+        {
+            justify-content: center;    
+            margin-top: 2rem;
+        }
+    }
     .project-description
     {
-        max-width: 450px;
+        max-width: 500px;
         margin: 0 auto;
         @media screen and (max-width: 900px) 
         {
@@ -267,7 +282,7 @@ main
     {
         max-width: 500px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 80px 80px;
         grid-template-rows: 1fr 1fr 1fr;
         font-size: 1rem;
         li:nth-child(1)
@@ -299,6 +314,7 @@ main
 
     .font-scale
     {
+        display: grid;
         li:nth-child(2)
         {
             font-size: 42px;
@@ -322,7 +338,21 @@ main
 
     }
 
- 
+    .category-colors
+    {
+        .test-2
+        {
+            min-height: 130px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 60px 50px;
+            @media screen and (max-width: 1000px) 
+            {
+                grid-template-columns: 1fr;
+                grid-row: 1fr 1fr 1fr 1fr;
+            }
+        }
+    }
 
 }
 
