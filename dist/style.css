@@ -51,7 +51,7 @@ nav ul a {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -133,6 +133,11 @@ main {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 900px) {
+  .projects-container .project-description {
+    margin: 0 0;
+  }
+}
 .projects-container .project-description span {
   font-size: 16px;
 }
@@ -162,6 +167,7 @@ main {
   color: #f4f4f4;
 }
 .projects-container .font-weight {
+  max-width: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
