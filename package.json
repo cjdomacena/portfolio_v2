@@ -1,0 +1,16 @@
+{
+  "name": "portfolio_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

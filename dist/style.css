@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+body {
+  background: linear-gradient(277.09deg, #313545 15.4%, #121118 100.07%);
+}
+
+.container-fluid {
+  max-width: 1440px;
+}
+
+.custom-active, .nav-item:hover {
+  background-color: #313545;
+  padding: 0rem 1rem;
+  border-radius: 2rem;
+}
+
+nav button {
+  border: none !important;
+}
+nav .navbar-toggler {
+  padding-right: 0;
+  border: none !important;
+}
+nav .navbar-collapse {
+  padding-top: 1rem;
+}
+nav span button, nav .custom button {
+  background-color: #8591FF !important;
+  width: 145px;
+  border-radius: 2rem !important;
+  font-size: 18px !important;
+  color: #0f0e0e !important;
+  font-family: "Roboto", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+nav span button:hover, nav .custom button:hover {
+  background-color: rgba(133, 145, 255, 0.5) !important;
+}
+nav ul {
+  width: 350px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+}
+nav ul .nav-item {
+  width: 100px;
+  text-align: center;
+}
+nav ul a {
+  padding: 5px 0 !important;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.hero-container {
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+.hero-container button {
+  background-color: #8591FF !important;
+  width: 145px;
+  border-radius: 2rem !important;
+  font-size: 20px !important;
+  color: #0f0e0e !important;
+  font-family: "Roboto", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.hero-container button:hover {
+  background-color: rgba(133, 145, 255, 0.5) !important;
+}
+.hero-container .hero {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero-container .hero {
+    justify-content: center;
+    margin-top: 0rem;
+  }
+}
+.hero-container .hero-text {
+  max-width: 558px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.hero-container .hero-text h1 {
+  font-size: 68px;
+  color: #F4F4F4;
+  font-weight: 900;
+  line-height: 91px;
+}
+@media screen and (max-width: 500px) {
+  .hero-container .hero-text h1 {
+    font-size: 52px;
+    line-height: 72px;
+  }
+}
+.hero-container .hero-text p {
+  font-size: 20px;
+  color: #F4F4F4;
+  line-height: 33px;
+}
+.hero-container .img-container {
+  display: flex;
+  justify-content: center;
+}
+.hero-container .img-container img {
+  width: auto;
+  height: auto;
+  filter: drop-shadow(15px 5px 0 rgba(0, 0, 0, 0.25));
+}
+
+.projects-container {
+  height: auto;
+  color: #f4f4f4;
+}
+.projects-container h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #8591FF;
+}
+.projects-container .project-description {
+  max-width: 450px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.projects-container .project-description span {
+  font-size: 16px;
+}
+.projects-container .project-description h2 {
+  font-size: 33px;
+  font-weight: 700;
+}
+.projects-container .project-description p {
+  font-size: 1rem;
+  line-height: 27px;
+}
+.projects-container .color-items .color-info {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin: 1rem 0;
+}
+.projects-container .color-items .color-info .color-circle {
+  height: 33px;
+  width: 33px;
+  border-radius: 16.5px;
+  margin-right: 0.5rem;
+}
+.projects-container .color-items .color-info .info p {
+  margin: 0;
+  font-weight: 400;
+  color: #f4f4f4;
+}
+.projects-container .font-weight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 1rem;
+}
+.projects-container .font-weight li:nth-child(1) {
+  font-weight: 900;
+}
+.projects-container .font-weight li:nth-child(2) {
+  font-weight: 700;
+}
+.projects-container .font-weight li:nth-child(3) {
+  font-weight: 500;
+}
+.projects-container .font-weight li:nth-child(4) {
+  font-weight: 400;
+}
+.projects-container .font-weight li:nth-child(5) {
+  font-weight: 300;
+}
+.projects-container .font-scale li:nth-child(2) {
+  font-size: 42px;
+}
+.projects-container .font-scale li:nth-child(3) {
+  font-size: 33px;
+}
+.projects-container .font-scale li:nth-child(4) {
+  font-size: 26px;
+}
+.projects-container .font-scale li:nth-child(5) {
+  font-size: 20px;
+}
+.projects-container .font-scale li:nth-child(6) {
+  font-size: 16px;
+}
