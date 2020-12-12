@@ -13,6 +13,37 @@ body {
   border-radius: 2rem;
 }
 
+.logo {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 16px;
+}
+.logo svg:hover rect {
+  stroke: rgba(255, 255, 255, 0.5);
+  transition: ease-in-out 0.3s;
+}
+.logo svg:hover path {
+  fill: rgba(255, 255, 255, 0.5);
+}
+.logo .name {
+  font-family: "Roboto", sans-serif;
+}
+.logo .name p {
+  width: 200px;
+  margin: 0;
+  padding-left: 1rem;
+  color: #fffffe;
+}
+.logo .name p:nth-child(1) {
+  font-weight: 500;
+}
+.logo .name p:nth-child(2) {
+  font-size: 13px;
+}
+
 nav button {
   border: none !important;
 }
@@ -51,7 +82,7 @@ nav ul a {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   place-items: center;
 }

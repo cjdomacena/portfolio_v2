@@ -41,6 +41,47 @@ body {
         border-radius: 2rem;
 }
 
+.logo
+{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 16px;
+    svg:hover
+    {
+        rect 
+        {
+            stroke: rgba($color: white, $alpha: .5);
+            transition: ease-in-out .3s;
+        }
+        path 
+        {
+            fill: rgba($color: white, $alpha: .5);
+            // transition: ease-in-out .1s;
+        }
+    }
+    .name 
+    {
+        font-family: 'Roboto', sans-serif;
+       p 
+       {
+           width: 200px;
+           margin: 0;
+           padding-left: 1rem;
+           color: #fffffe;
+       }
+       p:nth-child(1)
+       {
+           font-weight: 500;
+       }
+       p:nth-child(2)
+       {
+           font-size: 13px;
+       }
+    }
+}
 
     nav
     {
@@ -86,10 +127,15 @@ body {
     }
 main
 {
-    min-height: 100vh;
+    min-height:90vh;
     display: grid;
     place-items: center;
 }
+
+
+
+  
+
 .hero-container {
 
     @include button-style(20px);
