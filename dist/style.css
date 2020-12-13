@@ -44,9 +44,6 @@ body {
   font-size: 13px;
 }
 
-nav button {
-  border: none !important;
-}
 nav .navbar-toggler {
   padding-right: 0;
   border: none !important;
@@ -55,17 +52,17 @@ nav .navbar-collapse {
   padding-top: 1rem;
 }
 nav span button, nav .custom button {
-  background-color: #8591FF !important;
-  width: 145px;
+  background-color: #08FFC4 !important;
+  width: 200px;
   border-radius: 2rem !important;
   font-size: 18px !important;
-  color: #0f0e0e !important;
+  color: #161615 !important;
   font-family: "Roboto", sans-serif !important;
   border: none !important;
   font-weight: 700 !important;
 }
 nav span button:hover, nav .custom button:hover {
-  background-color: rgba(133, 145, 255, 0.5) !important;
+  background-color: rgba(8, 255, 196, 0.5) !important;
 }
 nav ul {
   width: 350px;
@@ -93,17 +90,17 @@ main {
   place-items: center;
 }
 .hero-container button {
-  background-color: #8591FF !important;
-  width: 145px;
+  background-color: #08FFC4 !important;
+  width: 200px;
   border-radius: 2rem !important;
   font-size: 20px !important;
-  color: #0f0e0e !important;
+  color: #161615 !important;
   font-family: "Roboto", sans-serif !important;
   border: none !important;
   font-weight: 700 !important;
 }
 .hero-container button:hover {
-  background-color: rgba(133, 145, 255, 0.5) !important;
+  background-color: rgba(8, 255, 196, 0.5) !important;
 }
 .hero-container .hero {
   display: flex;

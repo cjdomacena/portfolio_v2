@@ -4,19 +4,19 @@
 @mixin button-style($size)
 {
     button {
-        background-color:  #8591FF  !important;
-        width: 145px;
+        background-color:  #08FFC4  !important;
+        width: 200px;
         border-radius: 2rem !important;
         font-size: $size !important;
-        color: rgb(15, 14, 14) !important;
+        color: #161615 !important;
         font-family: 'Roboto', sans-serif !important;
         border: none !important;
-    
+        
         font-weight: 700 !important;
     }
     
     button:hover {
-        background-color: rgba($color: #8591FF, $alpha: .5) !important;
+        background-color: rgba($color: #08FFC4, $alpha: .5) !important;
     }
     
 }
@@ -85,10 +85,7 @@ body {
 
     nav
     {
-        button 
-        {
-            border: none !important;
-        }
+
         .navbar-toggler
         {
             padding-right: 0;
