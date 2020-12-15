@@ -55,7 +55,12 @@ header
         padding: 0rem .5rem;
         border-radius: 2rem;
         transition: ease-in .2s;
+        @media screen and (max-width: 991px)
+        {
+            text-align: center;
+        }
 }
+
 
 
 
@@ -103,7 +108,7 @@ header
 
     nav
     {
-
+        margin-top: 1rem;
         .navbar-toggler
         {
             padding-right: 0;
@@ -111,7 +116,7 @@ header
         }
         .navbar-collapse
         {
-            // padding-top: 1rem;
+             padding-top: 1rem;
         }
         span, .custom
         {
@@ -130,8 +135,12 @@ header
             {
                 width: 100px;
 
-                    text-align: center;
-
+                text-align: center;
+                @media screen and (max-width: 991px)
+                {
+                    text-align: left;
+                    margin: .3rem 0;
+                }
             }
         
             a {

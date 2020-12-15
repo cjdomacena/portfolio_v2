@@ -23,6 +23,11 @@ header {
   border-radius: 2rem;
   transition: ease-in 0.2s;
 }
+@media screen and (max-width: 991px) {
+  .active, .nav-item:hover {
+    text-align: center;
+  }
+}
 
 .logo {
   width: auto;
@@ -55,9 +60,15 @@ header {
   font-size: 13px;
 }
 
+nav {
+  margin-top: 1rem;
+}
 nav .navbar-toggler {
   padding-right: 0;
   border: none !important;
+}
+nav .navbar-collapse {
+  padding-top: 1rem;
 }
 nav span button, nav .custom button {
   background-color: #08FFC4 !important;
@@ -81,6 +92,12 @@ nav ul {
 nav ul .nav-item {
   width: 100px;
   text-align: center;
+}
+@media screen and (max-width: 991px) {
+  nav ul .nav-item {
+    text-align: left;
+    margin: 0.3rem 0;
+  }
 }
 nav ul a {
   padding: 5px 0 !important;
