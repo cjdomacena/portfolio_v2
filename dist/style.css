@@ -1,16 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 body {
   background: linear-gradient(277.09deg, #313545 15.4%, #121118 100.07%);
+  position: relative;
 }
 
-.container-fluid {
+.change-color {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: ease-in-out 0.3s;
+}
+
+header, main, .first-page {
   max-width: 1440px;
 }
 
-.custom-active, .nav-item:hover {
-  background-color: #313545;
-  padding: 0rem 1rem;
+header {
+  margin: 0 auto;
+}
+
+.active, .nav-item:hover {
+  background-color: #3135457a;
+  padding: 0rem 0.5rem;
   border-radius: 2rem;
+  transition: ease-in 0.2s;
 }
 
 .logo {
@@ -47,9 +58,6 @@ body {
 nav .navbar-toggler {
   padding-right: 0;
   border: none !important;
-}
-nav .navbar-collapse {
-  padding-top: 1rem;
 }
 nav span button, nav .custom button {
   background-color: #08FFC4 !important;
@@ -134,7 +142,7 @@ main {
 }
 .hero-container .hero-text p {
   font-size: 20px;
-  color: #F4F4F4;
+  color: #919191;
   line-height: 33px;
 }
 .hero-container .img-container {
@@ -151,6 +159,12 @@ main {
   margin-top: 2rem;
   height: auto;
   color: #f4f4f4;
+}
+@media screen and (max-width: 500px) {
+  .projects-container .project-01-img-container {
+    padding: 0;
+    margin: 0;
+  }
 }
 .projects-container .project-info {
   padding: 0 2rem;
@@ -272,4 +286,104 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 50px 50px;
   }
+}
+
+.resume-container {
+  color: #F4F4F4;
+  font-family: "Roboto", sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.resume-container .exp {
+  padding-top: 0.3rem;
+  color: #919191;
+}
+.resume-container .skill-name {
+  width: 256px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+.resume-container .skill-name p {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  color: #F4F4F4;
+  font-weight: 500;
+}
+.resume-container .skill-name span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #919191;
+}
+.resume-container .progress-bar-custom {
+  height: 6px;
+  width: 256px;
+  border: 1px solid #8591FF;
+  border-radius: 5px;
+}
+.resume-container .progress-bar-custom .progress-percent {
+  height: 100%;
+  width: 80%;
+  border-radius: 3px;
+  background-color: #8591FF;
+}
+.resume-container .about-me {
+  height: auto;
+  max-width: 450px;
+  font-family: "Roboto", sans-serif;
+}
+.resume-container .about-me h3 {
+  font-size: 28px;
+  color: #F4F4F4;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 42px;
+}
+.resume-container .about-me p {
+  font-size: 1rem;
+  color: #f4f4f4;
+  line-height: 27px;
+  margin-top: 0.3rem;
+  letter-spacing: 1.5px;
+}
+.resume-container .about-me button {
+  margin-top: 1rem;
+}
+.resume-container .about-me button {
+  background-color: #08FFC4 !important;
+  width: 200px;
+  border-radius: 2rem !important;
+  font-size: 20px !important;
+  color: #161615 !important;
+  font-family: "Roboto", sans-serif !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+.resume-container .about-me button:hover {
+  background-color: rgba(8, 255, 196, 0.5) !important;
+}
+
+.school-content h3 {
+  font-size: 25px;
+  color: #f4f4f4;
+  font-weight: 700;
+}
+.school-content ul h4 {
+  font-size: 1rem;
+  color: #919191;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.school-content ul li:nth-child(2) {
+  font-size: 25px;
+  color: #8591FF;
+  font-weight: 500;
+}
+.school-content ul li:nth-child(3) {
+  font-size: 1rem;
+  color: #919191;
+}
+
+.category-color-items-2 {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
 }
