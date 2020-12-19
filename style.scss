@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
 
 @mixin button-style($size)
 {
@@ -32,9 +32,7 @@ body {
     transition: ease-in-out .3s;
 }
 
-.container-fluid {
-    // max-width: 1440px;
-}
+
 
 header, main, .first-page
 {
@@ -514,4 +512,42 @@ main
 {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+}
+
+.play
+{
+    font-family: 'Playfair Display', serif;
+
+}
+
+// .project-about
+// {
+//      height: 450px;
+//      .project-img-01
+//      {
+//          height: 450px;
+//          img 
+//          {
+//              height: 100%;
+//              width: 100%;
+//          }
+//      }
+//      @media screen and (max-width: 1000px)
+//      {
+//          height:auto;
+//      }
+//      .project-img-01
+//      {
+//         height:auto;
+//          img 
+//          {
+//             height:auto;
+//          }
+//      }
+// }
+
+.project-2 
+{
+    border-top: 1px solid rgba($color: white, $alpha: .5);
+    padding-top: 3rem;
 }

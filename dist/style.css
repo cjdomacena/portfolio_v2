@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap");
 body {
   background: linear-gradient(277.09deg, #313545 15.4%, #121118 100.07%);
   position: relative;
@@ -403,4 +404,13 @@ main {
 .category-color-items-2 {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
+}
+
+.play {
+  font-family: "Playfair Display", serif;
+}
+
+.project-2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 3rem;
 }
