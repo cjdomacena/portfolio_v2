@@ -217,6 +217,7 @@ main
 .projects-container
 {
     margin-top: 2rem;
+    padding-bottom: 1rem;
     .project-01-img-container
     {
         @media screen and (max-width: 500px)
@@ -224,6 +225,7 @@ main
             padding: 0;
             margin: 0;
         }
+        padding-bottom: 2rem;
     }
     .project-info
     {
@@ -402,6 +404,7 @@ main
     color: #F4F4F4;
     font-family: 'Roboto', sans-serif;
     border-top: 1px solid rgba($color: white, $alpha: .5);
+    padding-bottom: 3rem;
   .exp 
   {
       padding-top: .3rem;

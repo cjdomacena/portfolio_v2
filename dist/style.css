@@ -175,8 +175,12 @@ main {
 
 .projects-container {
   margin-top: 2rem;
+  padding-bottom: 1rem;
   height: auto;
   color: #f4f4f4;
+}
+.projects-container .project-01-img-container {
+  padding-bottom: 2rem;
 }
 @media screen and (max-width: 500px) {
   .projects-container .project-01-img-container {
@@ -310,6 +314,7 @@ main {
   color: #F4F4F4;
   font-family: "Roboto", sans-serif;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 3rem;
 }
 .resume-container .exp {
   padding-top: 0.3rem;
